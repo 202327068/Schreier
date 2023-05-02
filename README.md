@@ -1,2 +1,4 @@
 # Schreier
-2023/05/02  C_programing
+* Ershaffen  C languege
+   * 학번: 202327068
+   * 이름: 고현웅
