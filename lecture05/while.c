@@ -42,7 +42,7 @@ int main()
 		}
 		else if (input==1)
 		{
-			printf("fxxk you, I'm cat!\n");
+			printf("help me.\n");
 		}
 	}
 
