@@ -9,7 +9,7 @@ void Rb_4_2(void);
 void Rb_5_1(void);
 void Rb_5_2(void);
 void Rb_5_3(void);
-void Rb_6_1(void);
+void Rb_6(void);
 void Rb_7_1(void);
 void Rb_7_2(void);
 void Rb_8_1(void);
