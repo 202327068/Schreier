@@ -20,45 +20,45 @@ void BeginGame(void)
 
 void UpdateGame(void)
 {
-	/*¸ŞÀÎÈ­¸é*/
+	/*ë©”ì¸í™”ë©´*/
 	if (GameState == 1)
 	{
 		SetCursorPostion(0, 0);
 		TitleScreen();
 		SetCursorPostion(0, 15);
 
-		char input = '0'; /*¾Æ½ºÅ°ÄÚµå*/
+		char input = '0'; /*ì•„ìŠ¤í‚¤ì½”ë“œ*/
 
 		input = getch();
 
-		/*°ÔÀÓ½ÃÀÛ*/
+		/*ê²Œì„ì‹œì‘*/
 		if (input == '1')
 		{
 			GameState = 3;
 		}
 
-		/*°ÔÀÓ¼³¸í*/
+		/*ê²Œì„ì„¤ëª…*/
 		else if (input == '2')
 		{
 			GameState = 2;
 		}
 
-		/*°ÔÀÓÁ¾·á*/
+		/*ê²Œì„ì¢…ë£Œ*/
 		else if (input == '3')
 		{
 			GameState = 0;
 		}
 
-		/*À§¿¡ ÀÖ´Â °ÍµéÀ» Á¦¿ÜÇÑ ´Ù¸¥ °Íµé*/
+		/*ìœ„ì— ìˆëŠ” ê²ƒë“¤ì„ ì œì™¸í•œ ë‹¤ë¥¸ ê²ƒë“¤*/
 		else
 		{
-			printf("\n\nÀÔ·ÂµÈ °ªÀÌ Àß¸øµÇ¾ú½À´Ï´Ù. ´Ù½Ã ÇÑ¹ø ´õ ÀÔ·ÂÇØÁÖ¼¼¿ä.\n\n");
+			printf("\n\nì…ë ¥ëœ ê°’ì´ ì˜ëª»ë˜ì—ˆìŠµë‹ˆë‹¤. ë‹¤ì‹œ í•œë²ˆ ë” ì…ë ¥í•´ì£¼ì„¸ìš”.\n\n");
 			Sleep(1500);
 			system("cls");
 		}
 	}
 
-	/*°ÔÀÓ½ÃÀÛ*/
+	/*ê²Œì„ì‹œì‘*/
 	else if (GameState == 3)
 	{
 		GameScreen();
@@ -103,7 +103,7 @@ void UpdateGame(void)
 		SetCursorPostion(0, 12);
 		Two_Select();
 
-		char first = '0'; /*¾Æ½ºÅ°ÄÚµå*/
+		char first = '0'; /*ì•„ìŠ¤í‚¤ì½”ë“œ*/
 
 		first = getch();
 
@@ -135,7 +135,7 @@ void UpdateGame(void)
 				Two_Street_Select();
 				Sleep(1200);
 
-				char second = '0'; /*¾Æ½ºÅ°ÄÚµå*/
+				char second = '0'; /*ì•„ìŠ¤í‚¤ì½”ë“œ*/
 
 				second = getch();
 
@@ -148,7 +148,7 @@ void UpdateGame(void)
 					Gm_line_left();
 					Sleep(1200);
 
-					/*180µµ 2°¥·¡±æ·Î ÀÌµ¿*/
+					/*180ë„ 2ê°ˆë˜ê¸¸ë¡œ ì´ë™*/
 					Two90 = 0;
 					Two180 = 1;
 					
@@ -166,7 +166,7 @@ void UpdateGame(void)
 				}
 				else
 				{
-					printf("\n\n´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä\n\n");
+					printf("\n\në‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”\n\n");
 				}
 			}
 
@@ -216,7 +216,7 @@ void UpdateGame(void)
 				}
 				else
 				{
-					printf("\n\n´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä\n\n");
+					printf("\n\në‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”\n\n");
 				}
 			}
 
@@ -258,7 +258,7 @@ void UpdateGame(void)
 				}
 				else 
 				{
-					printf("\n\n´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä\n\n");
+					printf("\n\në‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”\n\n");
 				}
 			}
 
@@ -357,7 +357,7 @@ void UpdateGame(void)
 				Sleep(1500);
 				GameState = 1;
 			}
-		}
+	}
 
 		else if (first == '2')
 		{
@@ -477,7 +477,7 @@ void UpdateGame(void)
 		}
 	}
 
-	/*°ÔÀÓ¹æ¹ı*/
+	/*ê²Œì„ë°©ë²•*/
 	else if (GameState == 2)
 	{
 		TutoScreen();
@@ -485,7 +485,7 @@ void UpdateGame(void)
 		GameState = 1;
 	}
 
-	/*°ÔÀÓÁ¾·á*/
+	/*ê²Œì„ì¢…ë£Œ*/
 	else if (GameState == 0)
 	{
 		ContinueGame = 0;
