@@ -1,0 +1,9 @@
+﻿  gamecore.c
+D:\C과제\game\lecture14-2\gamecore.c(32,11): warning C4013: 'getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\C과제\game\lecture14-2\gamecore.c(55,4): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\C과제\game\lecture14-2\gamecore.c(56,4): warning C4013: 'Sleep'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\C과제\game\lecture14-2\gamecore.c(57,4): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\C과제\game\lecture14-2\gamecore.c(93,3): warning C4013: 'Rb_6'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  gameobjects.c
+  코드를 생성하고 있습니다...
+  lecture14-2.vcxproj -> D:\C과제\game\x64\Debug\lecture14-2.exe

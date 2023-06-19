@@ -1,0 +1,90 @@
+#pragma once
+
+void Rb_1(void);
+void Rb_2(void);
+void Rb_3_1(void);
+void Rb_3_2(void);
+void Rb_4_1(void);
+void Rb_4_2(void);
+void Rb_5_1(void);
+void Rb_5_2(void);
+void Rb_5_3(void);
+void Rb_6(void);
+void Rb_7_1(void);
+void Rb_7_2(void);
+void Rb_8_1(void);
+
+void Gm_line_1(void);
+void Gm_line_2(void);
+void Gm_line_3_1(void);
+void Gm_line_3_2(void);
+void Gm_line_Select(void);
+void Gm_line_left(void);
+void Gm_line_right(void);
+void Gm_line_middle(void);
+
+void Wall_line_1(void);
+void Wall_line_2(void);
+void Wall_line_3(void);
+void Wall_line_4(void);
+void Wall_line_5(void);
+
+void Snack_line_1_1(void);
+void Snack_line_1_2(void);
+void Snack_line_1_3(void);
+void Snack_line_2_1(void);
+void Snack_line_2_2(void);
+void Snack_line_2_3(void);
+void Snack_line_2_4_1_1(void);
+void Snack_line_2_4_1_2(void);
+
+void Wall_Ending(void);
+void Snack_Ending(void);
+void Ending(void);
+
+void Grass_1(void);
+void Grass_2(void);
+void Grass_3(void);
+void Grass_4(void);
+void Grass_5(void);
+void Grass_6(void);
+void Grass_7(void);
+void Grass_8(void);
+void Grass_9(void);
+
+void Two_Select(void);;
+void Two_Street_Select(void);
+void Three_Street_Select(void);
+void Snack_Select(void);
+void Hidden_Select(void);
+void Select_format(void);
+
+void Rb_00(void);
+void Hidden_line_1_1(void);
+void Hidden_line_1_2_1(void);
+void Hidden_line_1_2_2(void);
+void Hidden_1(void);
+void Hidden_line_2_1(void);
+void Hidden_line_2_2(void);
+void Hidden_line_2_3(void);
+void Hidden_line_2_4(void);
+void Hidden_line_2_5(void);
+void Hidden_line_2_6(void);
+void Hidden_line_2_7(void);
+void Hidden_line_2_8(void);
+void Hidden_line_2_9(void);
+void Hidden_line_2_10(void);
+void Hidden_line_2_11(void);
+void Hidden_line_2_12(void);
+void Hidden_line_2_13(void);
+void Hidden_line_2_14(void);
+void Hidden_line_2_15(void);
+void Hidden_line_2_16(void);
+void Hidden_line_2_17(void);
+void Hidden_line_2_18(void);
+void Hidden_line_2_19(void);
+void Hidden_line_2_20(void);
+void Hidden_line_2_21(void);
+void Hidden_line_2_22(void);
+void Hidden_2(void);
+void Hidden_route(void);
